@@ -36,15 +36,17 @@
 
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1.35rem;
 }
 
 .tab {
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 5.5rem;
   border: 1px solid transparent;
   border-radius: 999px;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0.85rem;
   background: color-mix(in srgb, var(--ink) 35%, transparent);
   color: var(--mist);
   font: inherit;
@@ -265,6 +267,111 @@
   margin-top: 2rem;
   color: color-mix(in srgb, var(--mist) 75%, transparent);
   font-size: 0.8rem;
+}
+
+.listen-intro {
+  margin: 0 0 1rem;
+  color: var(--mist);
+  line-height: 1.45;
+}
+
+.listen-stage {
+  padding: 1.15rem 1.1rem 1.25rem;
+  border-radius: 1.1rem;
+  background: color-mix(in srgb, var(--ink) 45%, transparent);
+  border: 1px solid color-mix(in srgb, var(--sand) 16%, transparent);
+  animation: rise 0.45s ease both;
+}
+
+.listen-header h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  color: var(--sand);
+  line-height: 1.15;
+}
+
+.listen-header p {
+  margin: 0.4rem 0 0;
+  color: var(--mist);
+  font-size: 0.95rem;
+}
+
+.listen-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.listen-controls .listen-btn {
+  margin-top: 0;
+}
+
+.listen-controls .listen-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.listen-progress {
+  margin: 0.85rem 0 0;
+  color: var(--mist);
+  font-size: 0.88rem;
+}
+
+.listen-spanish {
+  margin: 0.85rem 0 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  color: color-mix(in srgb, var(--sand) 88%, transparent);
+}
+
+.caption-panel {
+  margin-top: 1rem;
+  padding: 0.95rem 1rem;
+  border-radius: 0.9rem;
+  background: color-mix(in srgb, var(--ink-deep) 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--teal-bright) 28%, transparent);
+  min-height: 5.5rem;
+}
+
+.caption-label {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal-bright);
+}
+
+.caption-line {
+  margin: 0.55rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.45rem;
+  font-size: 1.2rem;
+  line-height: 1.45;
+  color: var(--foam);
+}
+
+.caption-placeholder {
+  color: var(--mist);
+  font-size: 1rem;
+}
+
+.caption-word {
+  opacity: 0.22;
+  transform: translateY(4px);
+  transition: opacity 0.18s ease, transform 0.18s ease, color 0.18s ease;
+}
+
+.caption-word.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.caption-word.is-current {
+  color: var(--coral);
 }
 
 @keyframes rise {

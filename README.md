@@ -4,6 +4,7 @@ A simple phrasebook + practice app for spoken Spanish on a trip to Mexico.
 
 - **Phrasebook** — browse trip phrases by situation and tap **Listen** for audio
 - **Practice** — hear Spanish → pick English, or see English → pick Spanish
+- **Listen** — short Spanish scenes with streaming English captions
 
 Audio uses the browser’s Web Speech API (`es-MX` when available). No backend or API keys.
 
