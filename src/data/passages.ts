@@ -181,4 +181,314 @@ export const PASSAGES: Passage[] = [
       },
     ],
   },
+  {
+    id: 'immigration',
+    title: 'Passport control',
+    blurb: 'Typical questions at the immigration desk.',
+    sentences: [
+      {
+        es: 'Buenos días. Pasaporte, por favor.',
+        en: 'Good morning. Passport, please.',
+      },
+      {
+        es: '¿Cuál es el motivo de su viaje?',
+        en: 'What is the purpose of your trip?',
+      },
+      {
+        es: 'Turismo. Voy a quedarme una semana.',
+        en: 'Tourism. I am going to stay one week.',
+      },
+      {
+        es: '¿Dónde se va a hospedar?',
+        en: 'Where will you be staying?',
+      },
+      {
+        es: 'En un hotel cerca del Zócalo. Aquí tengo la reservación.',
+        en: 'At a hotel near the Zócalo. Here is my reservation.',
+      },
+      {
+        es: 'Muy bien. Bienvenido a México. Que disfrute su estancia.',
+        en: 'Very good. Welcome to Mexico. Enjoy your stay.',
+      },
+    ],
+  },
+  {
+    id: 'bus-station',
+    title: 'At the bus station',
+    blurb: 'Buying tickets for an ADO or long-distance bus.',
+    sentences: [
+      {
+        es: 'Quiero un boleto a Puebla para hoy en la tarde.',
+        en: 'I want a ticket to Puebla for this afternoon.',
+      },
+      {
+        es: 'Tenemos salida a las tres y a las cinco y media.',
+        en: 'We have departures at three and at five thirty.',
+      },
+      {
+        es: 'La de las tres, por favor. ¿Cuánto cuesta?',
+        en: 'The three o’clock one, please. How much does it cost?',
+      },
+      {
+        es: 'Son doscientos cuarenta pesos. ¿Prefiere ventana o pasillo?',
+        en: 'It is two hundred forty pesos. Do you prefer window or aisle?',
+      },
+      {
+        es: 'Ventana. ¿El autobús sale de qué andén?',
+        en: 'Window. Which platform does the bus leave from?',
+      },
+      {
+        es: 'Andén cuatro. Llegue quince minutos antes, por favor.',
+        en: 'Platform four. Please arrive fifteen minutes early.',
+      },
+    ],
+  },
+  {
+    id: 'pharmacy',
+    title: 'At the pharmacy',
+    blurb: 'Asking for medicine when you feel under the weather.',
+    sentences: [
+      {
+        es: 'Buenas tardes. Me duele la cabeza y tengo un poco de fiebre.',
+        en: 'Good afternoon. My head hurts and I have a little fever.',
+      },
+      {
+        es: '¿Desde cuándo se siente así?',
+        en: 'How long have you been feeling like this?',
+      },
+      {
+        es: 'Desde anoche. También me duele la garganta.',
+        en: 'Since last night. My throat also hurts.',
+      },
+      {
+        es: 'Le recomiendo este analgésico y pastillas para la garganta.',
+        en: 'I recommend this pain reliever and throat lozenges.',
+      },
+      {
+        es: 'Tome una pastilla cada ocho horas, después de comer.',
+        en: 'Take one pill every eight hours, after eating.',
+      },
+      {
+        es: '¿Necesita algo para la digestión también?',
+        en: 'Do you also need something for digestion?',
+      },
+    ],
+  },
+  {
+    id: 'cafe',
+    title: 'Ordering coffee',
+    blurb: 'A quick stop at a café before sightseeing.',
+    sentences: [
+      {
+        es: 'Hola. ¿Me puede dar un café de olla, por favor?',
+        en: 'Hi. Can I get a café de olla, please?',
+      },
+      {
+        es: 'Claro. ¿Lo quiere chico, mediano o grande?',
+        en: 'Of course. Do you want small, medium, or large?',
+      },
+      {
+        es: 'Mediano. Y también un pan dulce, el de concha.',
+        en: 'Medium. And also a sweet bread, the concha.',
+      },
+      {
+        es: '¿Para llevar o para tomar aquí?',
+        en: 'To go or for here?',
+      },
+      {
+        es: 'Para llevar. ¿Aceptan tarjeta?',
+        en: 'To go. Do you take cards?',
+      },
+      {
+        es: 'Sí. Su total son setenta y cinco pesos.',
+        en: 'Yes. Your total is seventy-five pesos.',
+      },
+    ],
+  },
+  {
+    id: 'museum',
+    title: 'Museum ticket line',
+    blurb: 'Buying tickets and asking about the exhibits.',
+    sentences: [
+      {
+        es: 'Dos boletos de adulto, por favor.',
+        en: 'Two adult tickets, please.',
+      },
+      {
+        es: '¿Tienen descuento para estudiantes o para extranjeros?',
+        en: 'Do you have a discount for students or for foreigners?',
+      },
+      {
+        es: 'Hoy el precio general es noventa pesos por persona.',
+        en: 'Today the general price is ninety pesos per person.',
+      },
+      {
+        es: '¿Se puede tomar fotos adentro?',
+        en: 'Can you take photos inside?',
+      },
+      {
+        es: 'Sí, sin flash. El audioguía cuesta cincuenta pesos más.',
+        en: 'Yes, without flash. The audio guide costs fifty pesos more.',
+      },
+      {
+        es: 'La entrada es por la izquierda. Disfruten la visita.',
+        en: 'The entrance is on the left. Enjoy your visit.',
+      },
+    ],
+  },
+  {
+    id: 'beach-hotel',
+    title: 'At the beach hotel',
+    blurb: 'Asking about pools, towels, and sunset times.',
+    sentences: [
+      {
+        es: '¿A qué hora abre la alberca?',
+        en: 'What time does the pool open?',
+      },
+      {
+        es: 'Abre a las ocho de la mañana y cierra a las ocho de la noche.',
+        en: 'It opens at eight in the morning and closes at eight at night.',
+      },
+      {
+        es: '¿Dónde puedo pedir toallas para la playa?',
+        en: 'Where can I get towels for the beach?',
+      },
+      {
+        es: 'En el club de playa, con su llave de habitación.',
+        en: 'At the beach club, with your room key.',
+      },
+      {
+        es: '¿El agua del mar está tranquila hoy?',
+        en: 'Is the ocean calm today?',
+      },
+      {
+        es: 'Sí. Y el atardecer se ve mejor desde el muelle.',
+        en: 'Yes. And the sunset looks best from the pier.',
+      },
+    ],
+  },
+  {
+    id: 'convenience-store',
+    title: 'At the corner store',
+    blurb: 'A quick OXXO run for water and snacks.',
+    sentences: [
+      {
+        es: '¿Dónde están las botellas de agua?',
+        en: 'Where are the water bottles?',
+      },
+      {
+        es: 'Al fondo, a la derecha, junto a los refrescos.',
+        en: 'In the back, on the right, next to the soft drinks.',
+      },
+      {
+        es: 'También quiero una tarjeta SIM prepago, por favor.',
+        en: 'I also want a prepaid SIM card, please.',
+      },
+      {
+        es: '¿La necesita con datos para una semana?',
+        en: 'Do you need it with data for one week?',
+      },
+      {
+        es: 'Sí. ¿Me puede activar el paquete aquí?',
+        en: 'Yes. Can you activate the plan here for me?',
+      },
+      {
+        es: 'Claro. Su total son doscientos diez pesos.',
+        en: 'Of course. Your total is two hundred ten pesos.',
+      },
+    ],
+  },
+  {
+    id: 'hotel-checkout',
+    title: 'Hotel check-out',
+    blurb: 'Settling the bill and asking about airport transport.',
+    sentences: [
+      {
+        es: 'Buenos días. Vengo a hacer el check-out.',
+        en: 'Good morning. I am here to check out.',
+      },
+      {
+        es: '¿La habitación doscientos doce, cierto?',
+        en: 'Room two hundred twelve, correct?',
+      },
+      {
+        es: 'Sí. ¿Me puede dar el detalle de la cuenta?',
+        en: 'Yes. Can you give me the bill details?',
+      },
+      {
+        es: 'Incluye dos noches y el servicio a la habitación de anoche.',
+        en: 'It includes two nights and last night’s room service.',
+      },
+      {
+        es: 'Perfecto. ¿Hay un taxi o un shuttle al aeropuerto?',
+        en: 'Perfect. Is there a taxi or a shuttle to the airport?',
+      },
+      {
+        es: 'Sí. El shuttle sale en quince minutos desde la entrada.',
+        en: 'Yes. The shuttle leaves in fifteen minutes from the entrance.',
+      },
+    ],
+  },
+  {
+    id: 'rideshare',
+    title: 'Meeting your rideshare',
+    blurb: 'Confirming the car and the drop-off point.',
+    sentences: [
+      {
+        es: 'Hola, ¿es usted el conductor de mi viaje?',
+        en: 'Hi, are you the driver for my ride?',
+      },
+      {
+        es: 'Sí. ¿Va al Museo Frida Kahlo?',
+        en: 'Yes. Are you going to the Frida Kahlo Museum?',
+      },
+      {
+        es: 'Exacto. ¿Puedo sentarme atrás?',
+        en: 'Exactly. May I sit in the back?',
+      },
+      {
+        es: 'Claro. Abróchese el cinturón, por favor.',
+        en: 'Of course. Please fasten your seatbelt.',
+      },
+      {
+        es: '¿Me puede dejar en la esquina, antes del semáforo?',
+        en: 'Can you drop me at the corner, before the traffic light?',
+      },
+      {
+        es: 'Sin problema. Ya casi llegamos.',
+        en: 'No problem. We are almost there.',
+      },
+    ],
+  },
+  {
+    id: 'tour-desk',
+    title: 'Booking a day tour',
+    blurb: 'Asking about pyramids, pickup, and what is included.',
+    sentences: [
+      {
+        es: 'Quisiera información sobre el tour a Teotihuacán.',
+        en: 'I would like information about the Teotihuacán tour.',
+      },
+      {
+        es: 'Sale todos los días a las ocho de la mañana desde el hotel.',
+        en: 'It leaves every day at eight in the morning from the hotel.',
+      },
+      {
+        es: '¿Qué incluye el precio?',
+        en: 'What does the price include?',
+      },
+      {
+        es: 'Transporte, guía en español e inglés, y el boleto de entrada.',
+        en: 'Transport, a Spanish and English guide, and the entrance ticket.',
+      },
+      {
+        es: '¿Cuántas horas dura el recorrido?',
+        en: 'How many hours does the tour last?',
+      },
+      {
+        es: 'Alrededor de seis horas. ¿Le reservo un lugar para mañana?',
+        en: 'Around six hours. Shall I reserve a spot for you for tomorrow?',
+      },
+    ],
+  },
 ]
